@@ -1,0 +1,35 @@
+{
+  "name": "Web-scraper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "async": "^2.6.1",
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "connect": "^3.6.6",
+    "emitter": "0.0.5",
+    "express": "^4.16.3",
+    "fake-useragent": "^1.0.1",
+    "formidable": "^1.2.1",
+    "fs-extra": "^7.0.0",
+    "gimmeproxy-request": "^1.0.12",
+    "hma-proxy-scraper": "0.0.4",
+    "js-proxy-finder": "0.0.4",
+    "json2xls": "^0.1.2",
+    "mkdirp": "^0.5.1",
+    "parallel-batch": "^0.1.1",
+    "proxy-lists": "^1.15.3",
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2",
+    "serve-static": "^1.13.2",
+    "toragent": "^0.1.1",
+    "xlsx": "^0.13.3",
+    "xroxy-proxy-scraper": "^1.0.3"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "kundan",
+  "license": "ISC",
+  "description": "A Node.js based web-scraper for Ebay"
+}
